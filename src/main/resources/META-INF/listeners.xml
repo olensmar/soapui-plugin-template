@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-listeners xmlns:tns="http://eviware.com/soapui/config">
+
+    <tns:listener id="SampleGroovyTestRunListener" listenerClass="com.smartbear.soapui.plugin.template.listeners.SampleGroovyListener"
+                  listenerInterface="com.eviware.soapui.model.testsuite.TestRunListener" singleton="true"/>
+
+    <tns:listener id="SampleJavaTestRunListener" listenerClass="com.smartbear.soapui.plugin.template.listeners.SampleJavaListener"
+                  listenerInterface="com.eviware.soapui.model.testsuite.TestRunListener" singleton="true"/>
+
+    <!--
+
+
+
+
+
+
+
+    -->
+
+</tns:soapui-listeners>

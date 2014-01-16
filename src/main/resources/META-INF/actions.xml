@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-actions xmlns:tns="http://eviware.com/soapui/config">
+
+    <tns:action id="SampleGroovyAction" actionClass="com.smartbear.soapui.plugin.template.actions.SampleGroovyAction"/>
+    <tns:action id="SampleJavaAction" actionClass="com.smartbear.soapui.plugin.template.actions.SampleJavaAction"/>
+
+    <tns:actionGroup id="EnabledWsdlProjectActions">
+        <tns:actionMapping actionId="SampleGroovyAction"/>
+        <tns:actionMapping actionId="SampleJavaAction"/>
+    </tns:actionGroup>
+
+</tns:soapui-actions>

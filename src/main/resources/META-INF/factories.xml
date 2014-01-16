@@ -1,0 +1,8 @@
+<tns:soapui-factories xmlns:tns="http://eviware.com/soapui/config">
+
+   <tns:factory id="SampleTestAssertionFactory" factoryClass="com.smartbear.soapui.plugin.template.factories.SampleTestAssertionFactory"
+           factoryType="com.eviware.soapui.impl.wsdl.teststeps.assertions.TestAssertionFactory"/>
+
+
+
+</tns:soapui-factories>
