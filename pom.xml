@@ -34,7 +34,7 @@
 
         <dependency>
             <groupId>com.smartbear.soapui</groupId>
-            <artifactId>soapui-project</artifactId>
+            <artifactId>soapui</artifactId>
             <version>4.6.4</version>
         </dependency>
 

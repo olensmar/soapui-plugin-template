@@ -13,9 +13,9 @@ See the corresponding documentation on the SoapUI Website:
 
 Clone this repository and use it as a template for your SoapUI plugins. Once cloned you will need to:
 
-1) Change the name, groupid and artifactid of the plugin (remember that SoapUI currently requires the name of the plugin jar to end with "plugin.jar")
-2) Modify sample classes as desired for your plugin
-3) Remove the sample classes that you won't be needing
+- Change the name, groupid and artifactid of the plugin (remember that SoapUI currently requires the name of the plugin jar to end with "plugin.jar")
+- Modify sample classes as desired for your plugin
+- Remove the sample classes that you won't be needing
 
 Build the plugin with maven:
 
